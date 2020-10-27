@@ -53,6 +53,8 @@ This will create:
 - [.gitignore](/.gitignore) - the version in this template has been stripped out.
 - `README.md` - with just one line
 
+This template project extends the base project with docs, a GH Actions CI flow and linting setup.
+
 
 ## Documentation
 > How to install, run and deploy this project
