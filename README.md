@@ -25,7 +25,8 @@ Next.js is "The React Framework for Production"
 - [Next.js homepage](https://nextjs.org)
 - [Learn Next.js](https://nextjs.org/learn)
 - [Documentation Next.js](https://nextjs.org/docs)
-- [Next.js Examples](https://github.com/vercel/next.js/tree/master/examples) on GitHub.
+- [Next.js Examples](https://github.com/vercel/next.js/tree/master/examples) in `vercel/next.js` repo.
+- [vercel/next-learn-starter](https://github.com/vercel/next-learn-starter) repo .
 - [Deploy](https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app) to Vercel.
 
 ### Create from scratch
