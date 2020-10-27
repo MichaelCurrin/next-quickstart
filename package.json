@@ -16,11 +16,10 @@
     "next-js"
   ],
   "scripts": {
-    "lint": "eslint src",
+    "lint": "eslint pages",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "preversion": "npm test",
     "version": "npm run build",
     "postversion": "git push --follow-tags"
   },
