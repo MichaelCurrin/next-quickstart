@@ -19,7 +19,9 @@
 
 ## Preview
 
-![Sample screenshot](/sample.png "Sample screenshot")
+<div align="center">
+    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+</div>
 
 
 ## About
