@@ -13,13 +13,16 @@
 
 ## Preview
 
-<!-- TODO Replace sample.png in the repo with your own image and then remove the indentation to turn this from a code block to actual markdown image. -->
-
-    ![Preview screenshot](/sample.png)
+![Preview screenshot](/sample.png)
 
 
+## What is Next.js?
 
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+> The React Framework for Production
+
+- https://nextjs.org
+
+See the [Learn Next.js](https://nextjs.org/learn) guide on the homepage for getting started with Next.js.
 
 
 ## Create from scratch
