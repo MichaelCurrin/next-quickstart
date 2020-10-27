@@ -10,10 +10,16 @@
 [![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 
 
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/next-js-quickstart/generate)
+
+</div>
+
 
 ## Preview
 
-![Preview screenshot](/sample.png)
+![Sample screenshot](/sample.png "Sample screenshot")
 
 
 ## About
