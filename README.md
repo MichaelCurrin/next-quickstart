@@ -46,6 +46,13 @@ $ npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel
 $ cd nextjs-blog
 ```
 
+This will create:
+
+- [pages](/pages/) directory with one JS file.
+- [public](/public/) directory with an SVG logo and favicon.
+- [.gitignore](/.gitignore) - the version in this template has been stripped out.
+- `README.md` - with just one line
+
 
 ## Documentation
 > How to install, run and deploy this project
