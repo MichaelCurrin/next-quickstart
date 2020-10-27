@@ -16,16 +16,19 @@
 ![Preview screenshot](/sample.png)
 
 
-## What is Next.js?
+## About
 
-> The React Framework for Production
+Next.js is "The React Framework for Production"
 
-- https://nextjs.org
+### Resources
 
-See the [Learn Next.js](https://nextjs.org/learn) guide on the homepage for getting started with Next.js.
+- [Next.js homepage](https://nextjs.org)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Documentation Next.js](https://nextjs.org/docs)
+- [Next.js Examples](https://github.com/vercel/next.js/tree/master/examples) on GitHub.
+- [Deploy](https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app) to Vercel.
 
-
-## Create from scratch
+### Create from scratch
 
 From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage.
 
