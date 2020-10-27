@@ -2,19 +2,12 @@
 > How to run the app locally
 
 
-## Dev
-
-Start the development server.
+## Start dev server
 
 ```sh
 $ npm run dev
 ```
 
+Open in the browser:
 
-## Start
-
-Run the built app in production mode.
-
-```sh
-npm start
-```
+- http://localhost:3000/
