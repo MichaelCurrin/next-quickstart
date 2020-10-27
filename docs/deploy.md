@@ -9,6 +9,11 @@ Build the app for production.
 $ npm run build
 ```
 
+Run the built app in production mode.
+
+```sh
+$ npm start
+```
 
 ## Release
 
