@@ -12,7 +12,8 @@
   "bugs": "https://github.com/MichaelCurrin/next-js-quickstart/issues",
   "keywords": [
     "template",
-    "skeleton"
+    "skeleton",
+    "next-js"
   ],
   "scripts": {
     "lint": "eslint src",
