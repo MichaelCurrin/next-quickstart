@@ -1,24 +1,20 @@
 # Usage
 > How to run the app locally
 
-## Lint
+
+## Dev
+
+Start the development server.
 
 ```sh
-$ npm run lint
+$ npm run dev
 ```
 
 
-## Run tests
+## Start
+
+Run the built app in production mode.
 
 ```sh
-$ npm test
-```
-
-
-## Compile
-
-_Useful if you have TypeScript or new JS and you need to compile to plain JS or older JS syntax._
-
-```sh
-$ npm run compile
+npm start
 ```

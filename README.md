@@ -10,32 +10,33 @@
 [![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 
 
-<div align="center">
-
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/node-project-template/generate)
-
-</div>
-
 
 ## Preview
-
-_This is a placeholder section for a screenshot of your shiny new web app or CLI tool_.
 
 <!-- TODO Replace sample.png in the repo with your own image and then remove the indentation to turn this from a code block to actual markdown image. -->
 
     ![Preview screenshot](/sample.png)
 
 
-## About
 
-See the [about](/docs/template-notes/about.md) doc for the purpose of this project and how to use it.
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+
+
+## Create from scratch
+
+From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage.
+
+```sh
+$ npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
+$ cd nextjs-blog
+```
 
 
 ## Documentation
 > How to install, run and deploy this project
 
 <div align="center">
-    
+
 [![View Project Docs](https://img.shields.io/badge/View-Project_Docs-blue?style=for-the-badge)](/docs/)
 
 </div>
