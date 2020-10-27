@@ -30,7 +30,7 @@ This project will run checks and build steps on [GitHub Actions](https://github.
 
 See the [workflow](/.github/workflows/main.yml) config file.
 
-See results on the [Actions](https://github.com/MichaelCurrin/node-project-template/actions/) tab.
+See results on the [Actions](https://github.com/MichaelCurrin/next-js-quickstart/actions/) tab.
 
 ### Note
 > A comment on the limitation of this template project

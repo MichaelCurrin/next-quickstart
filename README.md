@@ -1,10 +1,10 @@
-# Node Project Template
-> Template for creating Node.js projects including docs and a deploy pipeline
+# Next.js Quickstart
+> Template for a Next.js app
 
 <!-- Badges generated with: https://michaelcurrin.github.io/badge-generator/ -->
 
-[![Node CI](https://github.com/MichaelCurrin/node-project-template/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/node-project-template/actions)
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/node-project-template)](https://github.com/MichaelCurrin/preact-quickstart/releases/)
+[![Node CI](https://github.com/MichaelCurrin/next-js-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/next-js-quickstart/actions)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/next-js-quickstart)](https://github.com/MichaelCurrin/preact-quickstart/releases/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue?logo=node.js&logoColor=white)](https://nodejs.org)
