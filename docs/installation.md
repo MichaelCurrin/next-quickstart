@@ -10,8 +10,8 @@ Install Node.js - follow these [instructions](https://gist.github.com/MichaelCur
 ## 2. Clone
 
 ```sh
-$ git clone git@github.com:MichaelCurrin/next-js-quickstart.git
-$ cd next-js-quickstart
+$ git clone git@github.com:MichaelCurrin/next-quickstart.git
+$ cd next-quickstart
 ```
 
 ## 3. Install project dependencies
