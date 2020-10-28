@@ -1,5 +1,5 @@
 # Next.js Quickstart
-> Template for a Next.js app
+> Starter template for a Next.js app
 
 <!-- Badges generated with: https://michaelcurrin.github.io/badge-generator/ -->
 
@@ -12,7 +12,7 @@
 
 <div align="center">
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/next-js-quickstart/generate)
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/next-quickstart/generate)
 
 </div>
 
