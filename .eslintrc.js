@@ -9,6 +9,11 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
   ],
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module'
@@ -17,6 +22,8 @@ module.exports = {
     semi: [
       2,
       'always'
-    ]
+    ],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   }
 };
