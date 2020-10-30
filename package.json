@@ -19,6 +19,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "preversion": "npm run lint:fix",
     "version": "npm run build",
     "postversion": "git push --follow-tags"
   },
