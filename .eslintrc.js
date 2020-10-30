@@ -5,7 +5,10 @@ module.exports = {
     browser: true,
     es2020: true
   },
-  extends: 'react-app',
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+  ],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module'
