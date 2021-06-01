@@ -5,16 +5,9 @@
 
 [![Node CI](https://github.com/MichaelCurrin/next-js-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/next-js-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/next-js-quickstart)](https://github.com/MichaelCurrin/next-js-quickstart/releases/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 [![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue?logo=node.js&logoColor=white)](https://nodejs.org)
-
-
-<div align="center">
-
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/MichaelCurrin/next-quickstart/generate)
-
-</div>
 
 
 ## Preview
@@ -24,9 +17,18 @@
 </div>
 
 
+## Use this project
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/next-quickstart/generate)
+
+</div>
+
+
 ## About
 
-Next.js is "The React Framework for Production"
+Next.js is "The React Framework for Production".
 
 ### Resources
 
@@ -37,7 +39,7 @@ Next.js is "The React Framework for Production"
 - [vercel/next-learn-starter](https://github.com/vercel/next-learn-starter) repo .
 - [Deploy](https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app) to Vercel.
 
-### Create from scratch
+### Create a fresh project from scratch
 
 From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage.
 
