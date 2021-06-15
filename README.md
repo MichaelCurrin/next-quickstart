@@ -51,7 +51,11 @@ This will create:
 - [.gitignore](/.gitignore) - the version in this template has been stripped out.
 - `README.md` - with just one line.
 
-This template project extends the base project with docs, a GH Actions CI flow and linting setup.
+This template project extends the base project with 
+
+- GH Actions CI flow - [main.yml](/.github/workflows/main.yml)
+- linting (ESLint installed and configured).
+- docs (see below)
 
 
 ## Documentation
