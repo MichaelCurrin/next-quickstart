@@ -17,11 +17,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
+  "author": "MichaelCurrin",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.28.0",
-    "eslint-config-next": "^11.0.0",
-    "eslint-plugin-react": "^7.24.0"
-  },
-  "author": "MichaelCurrin",
-  "license": "MIT"
+    "eslint-config-next": "^11.0.0"
+  }
 }
