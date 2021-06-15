@@ -10,4 +10,4 @@ $ npm run dev
 
 Open in the browser:
 
-- http://localhost:3000/
+- http://localhost:3000

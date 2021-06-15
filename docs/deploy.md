@@ -9,11 +9,21 @@ Build the app for production.
 $ npm run build
 ```
 
-Test the output by running a server against it.
+Preview the prod build with a dev server.
 
 ```sh
 $ npm start
 ```
+
+Or simply this to run both:
+
+```sh
+$ npm run prod
+```
+
+Then open the browser at:
+
+- http://localhost:3000
 
 
 ## Release
@@ -40,4 +50,4 @@ With the current flow **nothing is persisted** after a build, so this on a CI fl
 
 If you want to deploy your app to GitHub Pages, follow this page: [GH Pages workflow](https://github.com/MichaelCurrin/code-cookbook/blob/master/recipes/ci-cd/github-actions/workflows/node/gh-pages.md).
 
-Or setup your app on Netlify or Vercel.
+Or set up your app on Netlify or Vercel.
