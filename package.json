@@ -1,18 +1,6 @@
 {
   "name": "next-quickstart",
-  "description": "Starter template for a Next.js app",
   "version": "0.3.0",
-  "author": "MichaelCurrin",
-  "license": "MIT",
-  "homepage": "https://github.com/MichaelCurrin/next-quickstart#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MichaelCurrin/next-quickstart"
-  },
-  "bugs": "https://github.com/MichaelCurrin/next-quickstart/issues",
-  "keywords": [
-    "next.js"
-  ],
   "scripts": {
     "lint:check": "eslint pages",
     "lint:fix": "eslint --fix pages",
@@ -32,5 +20,7 @@
   "devDependencies": {
     "eslint": "^7.28.0",
     "eslint-plugin-react": "^7.24.0"
-  }
+  },
+  "author": "MichaelCurrin",
+  "license": "MIT"
 }
