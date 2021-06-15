@@ -1,5 +1,5 @@
 # Next.js Quickstart
-> Starter template for a Next.js app
+> Starter template for a Next.js app with docs and CI
 
 <!-- Badges generated with: https://michaelcurrin.github.io/badge-generator/ -->
 
