@@ -7,13 +7,13 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/next-js-quickstart)](https://github.com/MichaelCurrin/next-js-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![Made with Node](https://img.shields.io/badge/Node.js->=10.X-blue?logo=node.js&logoColor=white)](https://nodejs.org)
+[![Made with Node](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 
 
 ## Preview
 
 <div align="center">
-    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" />
+    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="600" />
 </div>
 
 
@@ -30,21 +30,15 @@
 
 Next.js is "The React Framework for Production".
 
-### Resources
-
-- [Next.js homepage](https://nextjs.org)
-- [Learn Next.js](https://nextjs.org/learn)
-- [Documentation Next.js](https://nextjs.org/docs)
-- [Next.js Examples](https://github.com/vercel/next.js/tree/master/examples) in `vercel/next.js` repo.
-- [vercel/next-learn-starter](https://github.com/vercel/next-learn-starter) repo .
-- [Deploy](https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app) to Vercel.
+See [Next.js](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/next/) resources to learn more.
 
 ### Create a fresh project from scratch
 
 From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage.
 
 ```sh
-$ npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
+$ npx create-next-app nextjs-blog --use-npm \
+    --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
 $ cd nextjs-blog
 ```
 
@@ -53,7 +47,7 @@ This will create:
 - [pages](/pages/) directory with one JS file.
 - [public](/public/) directory with an SVG logo and favicon.
 - [.gitignore](/.gitignore) - the version in this template has been stripped out.
-- `README.md` - with just one line
+- `README.md` - with just one line.
 
 This template project extends the base project with docs, a GH Actions CI flow and linting setup.
 
