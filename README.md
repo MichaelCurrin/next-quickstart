@@ -9,6 +9,8 @@
 
 [![Made with Node](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 
+[![Package - next](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/next)](https://www.npmjs.com/package/next)
+
 
 ## Preview
 
@@ -64,4 +66,4 @@ This template project extends the base project with docs, a GH Actions CI flow a
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
