@@ -57,11 +57,6 @@ This template project extends the base project by adding:
 
 - GH Actions CI flow - [main.yml](/.github/workflows/main.yml)
 - Linting (ESLint installed and configured).
-    ```sh
-    $ npm install -D eslint eslint-plugin-react
-    $ # From Next 11, you get run errors and ESLint prompts to install this:
-    $ npm install -D slint-config-next
-    ```
 - Docs (see below)
 
 
