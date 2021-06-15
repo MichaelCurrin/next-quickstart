@@ -10,6 +10,8 @@
 [![Made with Node](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 
 [![Package - next](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/next)](https://www.npmjs.com/package/next)
+[![Package - react](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/react)](https://www.npmjs.com/package/react)
+[![Package - eslint](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/dev/eslint)](https://www.npmjs.com/package/eslint)
 
 
 ## Preview
@@ -51,11 +53,16 @@ This will create:
 - [.gitignore](/.gitignore) - the version in this template has been stripped out.
 - `README.md` - with just one line.
 
-This template project extends the base project with 
+This template project extends the base project by adding:
 
 - GH Actions CI flow - [main.yml](/.github/workflows/main.yml)
-- linting (ESLint installed and configured).
-- docs (see below)
+- Linting (ESLint installed and configured).
+    ```sh
+    $ npm install -D eslint eslint-plugin-react
+    $ # From Next 11, you get run errors and ESLint prompts to install this:
+    $ npm install -D slint-config-next
+    ```
+- Docs (see below)
 
 
 ## Documentation
