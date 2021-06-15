@@ -32,7 +32,11 @@
 
 ## About
 
+This is a static website built on Next.js, which is a framework build on React.
+
 Next.js is "The React Framework for Production".
+
+As with React, you can build more advanced web apps but in this case this template uses a simple site which can be hosted as static site. You can look into use Vercel as a host if you want server-side rendering.
 
 See [Next.js](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/next/) resources to learn more.
 
