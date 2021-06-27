@@ -9,21 +9,37 @@ Build the app for production to the `.next` directory.
 $ npm run build
 ```
 
+### Preview
+
 Preview the prod build with a dev server. This supports hybrid pages, serving both statically generated and server-side rendered pages.
 
 ```sh
 $ npm start
 ```
 
-Or simply this I've added, to run both in a sequence:
+Or simply run this to handle both of the above.
 
 ```sh
-$ npm run prod
+$ npm run serve:prod
 ```
 
 Then open the browser at:
 
 - http://localhost:3000
+
+### Export
+
+Note that the default build output is not set up as static output - there no `index.html`.
+
+Run this to run `build` and then process the existing build output as a statically generated Next site. Thanks to this [article](https://pagepro.co/blog/how-to-use-next-js-static-site-generator/).
+
+```sh
+$ npm run build:prod
+```
+
+The output can be found in `out/`. It will have an `index.html`.
+
+This directory can be served without Node. Using Nginx, GitHub Pages or Netlify for example.
 
 
 ## Release
