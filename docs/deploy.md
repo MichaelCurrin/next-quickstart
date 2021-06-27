@@ -3,19 +3,19 @@
 
 ## Build app
 
-Build the app for production.
+Build the app for production to the `.next` directory.
 
 ```sh
 $ npm run build
 ```
 
-Preview the prod build with a dev server.
+Preview the prod build with a dev server. This supports hybrid pages, serving both statically generated and server-side rendered pages.
 
 ```sh
 $ npm start
 ```
 
-Or simply this to run both:
+Or simply this I've added, to run both in a sequence:
 
 ```sh
 $ npm run prod
