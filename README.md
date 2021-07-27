@@ -54,8 +54,8 @@ This will create:
 
 - [pages](/pages/) directory with one JS file.
 - [public](/public/) directory with an SVG logo and favicon.
-- [.gitignore](/.gitignore) - the version in this template has been stripped out.
-- `README.md` - with just one line.
+- [.gitignore](/.gitignore) file.
+- `README.md` file - with just one line.
 
 This template project extends the base project by adding:
 
