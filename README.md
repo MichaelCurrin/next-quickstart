@@ -9,9 +9,9 @@
 
 [![Made with Node](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 
-[![Package - next](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/next)](https://www.npmjs.com/package/next)
-[![Package - react](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/react)](https://www.npmjs.com/package/react)
-[![Package - eslint](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/dev/eslint)](https://www.npmjs.com/package/eslint)
+[![Package - next](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/next?logo=next.js)](https://www.npmjs.com/package/next)
+[![Package - react](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/react?logo=react)](https://www.npmjs.com/package/react)
+[![Package - eslint](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/dev/eslint?logo=eslint)](https://www.npmjs.com/package/eslint)
 
 
 ## Preview
