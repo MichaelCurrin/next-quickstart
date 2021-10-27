@@ -17,7 +17,7 @@
 ## Preview
 
 <div align="center">
-    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="600" />
+    <img src="/sample.png" alt="Sample screenshot" width="600" />
 </div>
 
 
@@ -45,7 +45,9 @@ See [Next.js](https://michaelcurrin.github.io/dev-resources/resources/javascript
 From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage.
 
 ```sh
-$ npx create-next-app nextjs-blog --use-npm \
+$ npx create-next-app \
+    nextjs-blog \
+    --use-npm \
     --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
 $ cd nextjs-blog
 ```
