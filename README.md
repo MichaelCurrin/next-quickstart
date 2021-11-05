@@ -57,6 +57,7 @@ That will create:
 - [pages](/pages/) directory with one JS file.
 - [public](/public/) directory with an SVG logo and favicon.
 - [.gitignore](/.gitignore) file.
+- [package.json](package.json) - it comes with Next 11 but I've set up Next 12 for my template here.
 - `README.md` file - with just one line.
 
 This template project extends the base project by adding:
