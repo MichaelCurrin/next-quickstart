@@ -5,7 +5,7 @@
 
 [![Node CI](https://github.com/MichaelCurrin/next-js-quickstart/workflows/Node%20CI/badge.svg)](https://github.com/MichaelCurrin/next-js-quickstart/actions)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/next-js-quickstart)](https://github.com/MichaelCurrin/next-js-quickstart/releases/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
 
 [![Made with Node](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 
@@ -36,23 +36,23 @@ This is a static website built on Next.js, which is a framework build on React.
 
 Next.js is "The React Framework for Production".
 
-As with React, you can build more advanced web apps but in this case this template uses a simple site which can be hosted as static site. You can look into use Vercel as a host if you want server-side rendering.
+As with React, you can build more advanced web apps but in this case this template uses a simple site which can be hosted as static site. You can look into use _Vercel_ as a host if you want server-side rendering.
 
 See [Next.js](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/next/) resources to learn more.
 
 ### Create a fresh project from scratch
 
-From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage.
+From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage:
 
 ```sh
 $ npx create-next-app \
-    nextjs-blog \
-    --use-npm \
-    --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
+  nextjs-blog \
+  --use-npm \
+  --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
 $ cd nextjs-blog
 ```
 
-This will create:
+That will create:
 
 - [pages](/pages/) directory with one JS file.
 - [public](/public/) directory with an SVG logo and favicon.
@@ -61,9 +61,9 @@ This will create:
 
 This template project extends the base project by adding:
 
-- GH Actions CI flow - [main.yml](/.github/workflows/main.yml)
+- GH Actions CI flow - [main.yml](/.github/workflows/main.yml).
 - Linting (ESLint installed and configured).
-- Docs (see below)
+- Docs (see below).
 
 
 ## Documentation
@@ -71,7 +71,7 @@ This template project extends the base project by adding:
 
 <div align="center">
 
-[![View Project Docs](https://img.shields.io/badge/View-Project_Docs-blue?style=for-the-badge)](/docs/)
+[![View Project Docs](https://img.shields.io/badge/View-Project_Docs-blue?style=for-the-badge)](/docs/ "Go to project docs")
 
 </div>
 
