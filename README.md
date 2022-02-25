@@ -7,7 +7,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/next-js-quickstart)](https://github.com/MichaelCurrin/next-js-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
 
-[![Made with Node](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
+[![Made with Node](https://img.shields.io/badge/Node.js->=14-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 
 [![Package - next](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/next?logo=next.js)](https://www.npmjs.com/package/next)
 [![Package - react](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/next-quickstart/react?logo=react)](https://www.npmjs.com/package/react)
