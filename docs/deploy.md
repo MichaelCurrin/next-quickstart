@@ -3,21 +3,23 @@
 
 ## Build app
 
-Build the app for production to the `.next` directory.
+Build the app for production.
 
 ```sh
 $ npm run build
 ```
 
+That outputs to the `.next` directory.
+
 ### Preview
 
-Preview the prod build with a dev server. This supports hybrid pages, serving both statically generated and server-side rendered pages.
+Preview output from above with a dev server. This mode supports hybrid pages - serving both statically-generated and server-side rendered pages.
 
 ```sh
 $ npm start
 ```
 
-Or simply run this to handle both of the above.
+Or run this to handle both the build and preview steps together.
 
 ```sh
 $ npm run serve:prod
@@ -27,43 +29,45 @@ Then open the browser at:
 
 - http://localhost:3000
 
-### Export
+### Export as static assets
 
-Note that the default build output is not set up as static output - there no `index.html`.
+Note that the default build output is _not_ set up as static output - there no `index.html`.
 
-Run this to run `build` and then process the existing build output as a statically generated Next site. Thanks to this [article](https://pagepro.co/blog/how-to-use-next-js-static-site-generator/).
+Run this command - it will run the `build` command and then turn the build output into statically generated Next site. Thanks to this [article](https://pagepro.co/blog/how-to-use-next-js-static-site-generator/).
 
 ```sh
 $ npm run build:prod
 ```
 
-The output can be found in `out/`. It will have an `index.html`.
-
-This directory can be served without Node. Using Nginx, GitHub Pages or Netlify for example.
+This outputs to the `out/` directory, which will have an `index.html` file. That directory can then be served as static assets - for example with Nginx, GitHub Pages, or Netlify.
 
 
 ## Release
 
-This will run checks, increment the tag version and push the new tagged commit.
+This will run checks, increment the minor tag version, and push the new tagged commit.
 
 ```sh
 $ npm version minor
 ```
 
+See more info on the [npm version](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/package-managers/javascript/npm/commands/version.html) command.
+
 
 ## Deploy pipeline
 
-This project will run checks and build steps on [GitHub Actions](https://github.com/features/actions) on every commit or push on any branch.
+On every commit or push on any branch, this repo will run checks and build steps using [GitHub Actions](https://github.com/features/actions).
 
-See the [workflow](/.github/workflows/main.yml) config file.
-
-See results on the [Actions](https://github.com/MichaelCurrin/next-js-quickstart/actions/) tab.
+See the [workflow](/.github/workflows/main.yml) config file. See log results on the [Actions](https://github.com/MichaelCurrin/next-js-quickstart/actions/) tab.
 
 ### Note
 > A comment on the limitation of this template project
 
-With the current flow **nothing is persisted** after a build, so this on a CI flow and not a CD flow.
+The CI above is only for quality control. If you want to _persist_ the built app to be hosted as a static site, you'll need to do more setup.
 
-If you want to deploy your app to GitHub Pages, follow this page: [GH Pages workflow](https://github.com/MichaelCurrin/code-cookbook/blob/master/recipes/ci-cd/github-actions/workflows/node/gh-pages.md).
+- Extend the GH Actions flow - see [Node GH Pages workflow][] recipe. 
+- Or set up your app on [Netlify][].
+- If you want server-side rendering, then deploy your app on [Vercel][].
 
-Or set up your app on Netlify or Vercel.
+[Node GH Pages workflow]: https://michaelcurrin.github.io/code-cookbook/recipes/ci-cd/github-actions/workflows/node/gh-pages.html
+[Netlify]: https://michaelcurrin.github.io/dev-resources/resources/ci-cd/netlify/
+[Vercel]: https://michaelcurrin.github.io/dev-resources/resources/ci-cd/vercel/
