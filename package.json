@@ -1,6 +1,8 @@
 {
   "name": "next-quickstart",
   "version": "1.1.1",
+  "author": "MichaelCurrin",
+  "license": "MIT",
   "scripts": {
     "lint:check": "eslint pages",
     "lint:fix": "eslint --fix pages",
@@ -14,14 +16,15 @@
     "postversion": "git push --follow-tags"
   },
   "dependencies": {
-    "next": "^12.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^14.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
-  "author": "MichaelCurrin",
-  "license": "MIT",
   "devDependencies": {
     "eslint": "^8.9.0",
     "eslint-config-next": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
