@@ -5,7 +5,7 @@ module.exports = {
     browser: true,
     es2020: true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended"],
+  extends: ["eslint:recommended", "next"],
   settings: {
     react: {
       version: "detect",
