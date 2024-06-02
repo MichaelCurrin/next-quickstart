@@ -4,14 +4,11 @@
   "author": "MichaelCurrin",
   "license": "MIT",
   "scripts": {
-    "lint:check": "eslint pages",
-    "lint:fix": "eslint --fix pages",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "serve:prod": "npm run build && npm run start",
     "build:prod": "npm run build && next export",
-    "preversion": "npm run lint:check",
     "version": "npm run build",
     "postversion": "git push --follow-tags"
   },
@@ -19,11 +16,6 @@
     "next": "^14.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@next/eslint-plugin-next": "^14.2.3",
-    "eslint": "^8.9.0",
-    "eslint-config-next": "^12.1.0"
   },
   "engines": {
     "node": ">=18"
