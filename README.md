@@ -45,10 +45,10 @@ See [Next.js](https://michaelcurrin.github.io/dev-resources/resources/javascript
 From [Create a Next.js App](https://nextjs.org/learn/basics/create-nextjs-app) tutorial on the homepage using [vercel/next-learn](https://github.com/vercel/next-learn) repo.
 
 ```sh
-$ npx create-next-app \
+$ npx create-next-app@latest \
   nextjs-blog \
   --use-npm \
-  --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+  --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"
 $ cd nextjs-blog
 ```
 
